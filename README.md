@@ -6,3 +6,4 @@ EaglerCraftX Client for 1.8
 ### Links:
 - [Cloudflare Pages Hosted](https://eaglercraftx1-8.pages.dev/) (https://eaglercraftx1-8.pages.dev/)
 - [Github Pages Hosted](https://eaglercraftx1-8.github.io/) (https://eaglercraftx1-8.github.io/)
+- [Netlify Hosted](https://eaglercraftx1-8.netlify.app/) (https://eaglercraftx1-8.netlify.app/)
