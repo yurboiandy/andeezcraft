@@ -1,5 +1,5 @@
 # EaglerCraftX-1.8
-EaglerCraftX Client for 1.8
+EaglerCraftX Client for 1.8 (+ 1.5.2 Options)
   
 **I am not affiliated with or employed by EaglerCraft or Eagtek. I solely host these sites. I do not own or work for EaglerCraft and am not affiliated with Mojang.**  
   
