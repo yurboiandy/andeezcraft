@@ -3,7 +3,7 @@
 # EaglerCraftX-1.8
 EaglerCraftX Client for 1.8 (+ 1.5.2 Options)
 
-Discord Server for this Site: https://discord.gg/czV7M8JXXM
+Discord Server for this Site (I will be more active on here and will probably do votes and stuff on here): https://discord.gg/czV7M8JXXM
   
 **I am not affiliated with or employed by EaglerCraft or Eagtek. I solely host these sites. I do not own or work for EaglerCraft and am not affiliated with Mojang.**  
   
