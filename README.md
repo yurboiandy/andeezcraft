@@ -2,6 +2,7 @@
 
 # EaglerCraftX-1.8
 EaglerCraftX Client for 1.8 (+ 1.5.2 Options)
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=eaglercraftx1-8&label=Repository%20views&color=0e75b6&style=flat" alt="eaglercraftx1-8" /> </p>
 
 Discord Server for this Site (I will be more active on here and will probably do votes and stuff on here): https://discord.gg/czV7M8JXXM
   
