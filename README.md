@@ -1,5 +1,3 @@
-## IMPORTANT: Cloudflare Pages no longer works as hosting as the files of EaglerForge Are too Large, you can continue using cloudflare pages if you (fork it first if you haven't already and) delete the eaglerforge folder.
-
 # EaglerCraftX-1.8
 EaglerCraftX Client for 1.8 (+ 1.5.2 Options)
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=eaglercraftx1-8&label=Repository%20views&color=0e75b6&style=flat" alt="eaglercraftx1-8" /> (If you fork this repository the views add up from the forks unless you remove this in your fork)</p>
