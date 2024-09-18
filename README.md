@@ -2,7 +2,8 @@
 EaglerCraftX Client for 1.8 (+ 1.5.2 Options)
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=eaglercraftx1-8&label=Repository%20views&color=0e75b6&style=flat" alt="eaglercraftx1-8" /> (If you fork this repository the views add up from the forks unless you remove this in your fork)</p>
 
-[![Star History Chart](https://api.star-history.com/svg?repos=eaglercraftx1-8/eaglercraftx1-8.github.io&type=Timeline)]
+## Contributors
+[![Contrib](https://contrib.rocks/image?repo=eaglercraftx1-8/eaglercraftx1-8.github.io)](https://github.com/eaglercraftx1-8/eaglercraftx1-8.github.io/graphs/contributors)
 
 Discord Server for this Site (Questions, Suggestions, etc. Also some voting for the site): https://discord.gg/czV7M8JXXM
   
