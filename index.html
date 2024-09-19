@@ -8,6 +8,7 @@
     <link rel="icon" type="image/x-icon" href="images/icon.jpeg">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/popup.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
@@ -19,28 +20,44 @@
     <p>Questions, Suggestions, etc? Join the discord server! (Scroll down to the very bottom for the Button to join)</p>
     <p>Scroll down to the bottom for buttons/links.</p>
     <h2 class="pick-client">Pick a Client:</h2>
-    <p class="version-text">Version 1.8</p>
 
-    <a href="/eagler-files/1.8/index.html"><button>Main 1.8.9 Client</button></a>
-    <a href="/eagler-files/1.8/resent4.0/index.html"><button>Resent 4.0 Client <img src="images/Recomended.png" alt="Recommended" class="recommended"></button></a>
-    <a href="/eagler-files/1.8/ShadowClient.html"><button>Shadow Client</button></a>
-    <a href="/eagler-files/1.8/EaglerForge/index.html"><button>EaglerForge [MODS!]</button></a>
+    <label for="mobileCheckbox">Mobile Checkbox</label>
+    <input type="checkbox" id="mobileCheckbox">
 
-    <p class="version-text">Version 1.8 - Mobile</p>
+    <!-- Version 1.8 Section -->
+    <div id="desktopVersion18">
+        <p class="version-text">Version 1.8</p>
 
-    <a href="/eagler-files/mobile/1.8/EaglerMobile/index.html"><button>EaglerMobile</button></a>
-    <a href="/eagler-files/mobile/1.8/EaglerPocketMobile/index.html"><button>EaglerPocketMobile</button></a>
+        <a class="version-link" data-url="/eagler-files/1.8/index.html" href="#"><button>Main 1.8.9 Client</button></a>
+        <a class="version-link" data-url="/eagler-files/1.8/resent4.0/index.html" href="#"><button>Resent 4.0 Client <img src="images/Recomended.png" alt="Recommended" class="recommended"></button></a>
+        <a class="version-link" data-url="/eagler-files/1.8/ShadowClient.html" href="#"><button>Shadow Client</button></a>
+        <a class="version-link" data-url="/eagler-files/1.8/EaglerForge/index.html" href="#"><button>EaglerForge [MODS!]</button></a>
+    </div>
 
-    <p class="version-text">Version 1.5.2</p>
+    <div id="mobileVersion18" style="display: none;">
+        <p class="version-text">Version 1.8 - Mobile</p>
 
-    <a href="/eagler-files/1.5.2/main1.5.2.html"><button>Main Client</button></a>
-    <a href="/eagler-files/1.5.2/PrecisionBeta.html"><button>Precision Beta Client</button></a>
-    <a href="/eagler-files/1.5.2/precisionbeta2/index.html"><button>Precision Beta 2 Client</button></a>
+        <a class="version-link" data-url="/eagler-files/mobile/1.8/EaglerMobile/index.html" href="#"><button>EaglerMobile</button></a>
+        <a class="version-link" data-url="/eagler-files/mobile/1.8/EaglerPocketMobile/index.html" href="#"><button>EaglerPocketMobile</button></a>
+    </div>
 
-    <p class="version-text">Version 1.5.2 - Mobile</p>
+    <!-- Version 1.5.2 Section -->
+    <div id="desktopVersion152">
+        <p class="version-text">Version 1.5.2</p>
 
-    <a href="/eagler-files/mobile/1.5.2/EaglerMobile/main1.5.2.html"><button>EaglerMobile</button></a>
-    <a href="/eagler-files/mobile/1.5.2/EaglerPocketMobile/main1.5.2.html"><button>EaglerPocketMobile</button></a>
+        <a class="version-link" data-url="/eagler-files/1.5.2/main1.5.2.html" href="#"><button>Main Client</button></a>
+        <a class="version-link" data-url="/eagler-files/1.5.2/PrecisionBeta.html" href="#"><button>Precision Beta Client</button></a>
+        <a class="version-link" data-url="/eagler-files/1.5.2/precisionbeta2/index.html" href="#"><button>Precision Beta 2 Client</button></a>
+    </div>
+
+    <div id="mobileVersion152" style="display: none;">
+        <p class="version-text">Version 1.5.2 - Mobile</p>
+
+        <a class="version-link" data-url="/eagler-files/mobile/1.5.2/EaglerMobile/main1.5.2.html" href="#"><button>EaglerMobile</button></a>
+        <a class="version-link" data-url="/eagler-files/mobile/1.5.2/EaglerPocketMobile/main1.5.2.html" href="#"><button>EaglerPocketMobile</button></a>
+    </div>
+
+    <script src="js/mobilecheck.js"></script>
 
     <div class="footer">
         <p>I am not affiliated with EaglerCraft, Eagtek, Microsoft, or Mojang. I solely host these sites.</p>
