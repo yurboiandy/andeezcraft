@@ -5,37 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EaglerCraftX</title>
-    <link rel="icon" type="image/x-icon" href="icon.jpeg">
+    <link rel="icon" type="image/x-icon" href="images/icon.jpeg">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/popup.css">
 </head>
 
 <body>
     <h1>Welcome to EaglerCraftX</h1>
-
-    <div id="joinModal" class="modal">
-        <div class="modal-content">
-            <h2>Join Our Discord Server!</h2>
-            <p>Join for voting, bug reports, suggestions, help, etc.</p>
-            <button onclick="openCopyModal()">Yes</button>
-            <button class="cancel-btn" onclick="closeModal()">Cancel</button>
-            <div style="margin-top: 20px;">
-                <input type="checkbox" id="dontShowCheckbox">
-                <label for="dontShowCheckbox">Don't show again</label>
-            </div>
-        </div>
-    </div>
-
-    <div id="copyModal" class="modal">
-        <div class="modal-content">
-            <h2>Copy Discord Link</h2>
-            <p class="copy-link" id="discordLink">https://discord.gg/czV7M8JXXM</p>
-            <button class="copy-btn" onclick="copyLink()">Copy Link</button>
-            <button class="cancel-btn" onclick="closeModal()">Close</button>
-        </div>
-    </div>
-
-    <script src="js/popup.js"></script>
 
     <p>Site views counter:</p>
     <div align='center'><a><img src='https://www.free-website-hit-counter.com/c.php?d=9&id=177632&s=16' border='0' alt='View Counter'></a></div>
@@ -45,26 +21,26 @@
     <h2 class="pick-client">Pick a Client:</h2>
     <p class="version-text">Version 1.8</p>
 
-    <a href="/1.8/index.html"><button>Main 1.8.9 Client</button></a>
-    <a href="/1.8/resent4.0/index.html"><button>Resent 4.0 Client <img src="Recomended.png" alt="Recommended" class="recommended"></button></a>
-    <a href="/1.8/ShadowClient.html"><button>Shadow Client</button></a>
-    <a href="/1.8/EaglerForge/index.html"><button>EaglerForge [MODS!]</button></a>
+    <a href="/eagler-files/1.8/index.html"><button>Main 1.8.9 Client</button></a>
+    <a href="/eagler-files/1.8/resent4.0/index.html"><button>Resent 4.0 Client <img src="images/Recomended.png" alt="Recommended" class="recommended"></button></a>
+    <a href="/eagler-files/1.8/ShadowClient.html"><button>Shadow Client</button></a>
+    <a href="/eagler-files/1.8/EaglerForge/index.html"><button>EaglerForge [MODS!]</button></a>
 
     <p class="version-text">Version 1.8 - Mobile</p>
 
-    <a href="/mobile/1.8/EaglerMobile/index.html"><button>EaglerMobile</button></a>
-    <a href="/mobile/1.8/EaglerPocketMobile/index.html"><button>EaglerPocketMobile</button></a>
+    <a href="/eagler-files/mobile/1.8/EaglerMobile/index.html"><button>EaglerMobile</button></a>
+    <a href="/eagler-files/mobile/1.8/EaglerPocketMobile/index.html"><button>EaglerPocketMobile</button></a>
 
     <p class="version-text">Version 1.5.2</p>
 
-    <a href="/1.5.2/main1.5.2.html"><button>Main Client</button></a>
-    <a href="/1.5.2/PrecisionBeta.html"><button>Precision Beta Client</button></a>
-    <a href="/1.5.2/precisionbeta2/index.html"><button>Precision Beta 2 Client</button></a>
+    <a href="/eagler-files/1.5.2/main1.5.2.html"><button>Main Client</button></a>
+    <a href="/eagler-files/1.5.2/PrecisionBeta.html"><button>Precision Beta Client</button></a>
+    <a href="/eagler-files/1.5.2/precisionbeta2/index.html"><button>Precision Beta 2 Client</button></a>
 
     <p class="version-text">Version 1.5.2 - Mobile</p>
 
-    <a href="/mobile/1.5.2/EaglerMobile/main1.5.2.html"><button>EaglerMobile</button></a>
-    <a href="/mobile/1.5.2/EaglerPocketMobile/main1.5.2.html"><button>EaglerPocketMobile</button></a>
+    <a href="/eagler-files/mobile/1.5.2/EaglerMobile/main1.5.2.html"><button>EaglerMobile</button></a>
+    <a href="/eagler-files/mobile/1.5.2/EaglerPocketMobile/main1.5.2.html"><button>EaglerPocketMobile</button></a>
 
     <div class="footer">
         <p>I am not affiliated with EaglerCraft, Eagtek, Microsoft, or Mojang. I solely host these sites.</p>
@@ -74,5 +50,29 @@
         <a href="https://eaglerrinth.github.io/" target="_blank"><button>EaglerRinth Mod List</button></a>
     </div>
 </body>
+
+<div id="joinModal" class="modal">
+    <div class="modal-content">
+        <h2>Join Our Discord Server!</h2>
+        <p>Join for voting, bug reports, suggestions, help, etc.</p>
+        <button onclick="openCopyModal()">Yes</button>
+        <button class="cancel-btn" onclick="closeModal()">Cancel</button>
+        <div style="margin-top: 20px;">
+            <input type="checkbox" id="dontShowCheckbox">
+            <label for="dontShowCheckbox">Don't show again</label>
+        </div>
+    </div>
+</div>
+
+<div id="copyModal" class="modal">
+    <div class="modal-content">
+        <h2>Copy Discord Link</h2>
+        <p class="copy-link" id="discordLink">https://discord.gg/czV7M8JXXM</p>
+        <button class="copy-btn" onclick="copyLink()">Copy Link</button>
+        <button class="cancel-btn" onclick="closeModal()">Close</button>
+    </div>
+</div>
+
+<script src="js/popup.js"></script>
 
 </html>
