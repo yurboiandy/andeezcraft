@@ -21,12 +21,6 @@ $(document).ready(function() {
         });
     }
 
-    $(".filter-button").on("click", function(event) {
-        event.preventDefault();
-        var url = $(this).data("url");
-        window.location.href = url; 
-    });
-
     $("#mobileCheckbox").on("change", function() {
         updateVisibility();
         updateLinks();
