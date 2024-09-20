@@ -19,8 +19,7 @@ p {
     color: #555;
 }
 
-button,
-.dropdown-btn {
+button {
     background-color: #4caf50;
     color: white;
     padding: 10px 20px;
