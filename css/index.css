@@ -9,19 +9,19 @@ body {
     min-height: 100vh;
     overflow-x: hidden;
 }
-#18mobileContainer{
+.mobileContainer18 {
     display: flex;
     width: 1%;
 }
-#18Container{
+.Container18{
     display: flex;
     width: 1%;
 }
-#15Container{
+.Container15{
     display: flex;
     width: 1%;
 }
-#15mobileContainer{
+.mobileContainer15{
     display: flex;
     width: 1%;
 }
