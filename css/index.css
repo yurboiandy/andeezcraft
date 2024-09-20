@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f1f1f1;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -11,12 +11,12 @@ body {
 }
 
 h1 {
-    color: #333;
+    color: #000000;
 }
 
 h2,
 p {
-    color: #555;
+    color: #000000;
 }
 
 button {
@@ -112,7 +112,7 @@ button:hover {
 }
 
 .pick-client {
-    color: #555;
+    color: #000000;
 }
 
 .line {
@@ -123,7 +123,7 @@ button:hover {
 
 .version-text {
     margin: 10px 0;
-    color: #555;
+    color: #000000;
 }
 
 .footer {
@@ -138,4 +138,9 @@ button:hover {
     margin-left: 5px;
     width: 20px;
     height: 20px;
+}
+.title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
