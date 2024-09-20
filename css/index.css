@@ -9,7 +9,22 @@ body {
     min-height: 100vh;
     overflow-x: hidden;
 }
-
+#18mobileContainer{
+    display: flex;
+    width: 1%;
+}
+#18Container{
+    display: flex;
+    width: 1%;
+}
+#15Container{
+    display: flex;
+    width: 1%;
+}
+#15mobileContainer{
+    display: flex;
+    width: 1%;
+}
 h1 {
     color: #000000;
 }
