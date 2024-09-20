@@ -32,3 +32,13 @@ function copyLink() {
         alert("Failed to copy the link.");
     });
 }
+
+// Clr data
+
+function openClrModal() {
+    document.getElementById('clr-data-model').style.display = 'flex';
+}
+
+function closeClrModal() {
+    document.getElementById('clr-data-model').style.display = 'none';
+}

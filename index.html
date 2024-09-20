@@ -64,7 +64,18 @@
     </div>
 
     <h3>DANGER ZONE</h3>
-    <a onclick="localStorage.clear();" class="clr-btn">Reset All Local Data</a>
+    <a onclick="openClrModal();" class="clr-btn">Reset All Local Data</a>
+    
+    <div id="clr-data-model" class="modal">
+        <div class="modal-content">
+            <h2>DANGER ZONE</h2>
+            <p>Are you sure you want to clear all your local data</p>
+            <button onclick="localStorage.clear(); location.reload();">Yes</button>
+            <button class="cancel-btn" onclick="closeClrModal()">Cancel</button>
+            </div>
+        </div>
+    </div>
+
 
     <script src="js/mobilecheck.js"></script>
     <script src="js/searchbar.js"></script>
