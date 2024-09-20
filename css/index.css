@@ -14,11 +14,13 @@ h1 {
     color: #333;
 }
 
-h2, p {
+h2,
+p {
     color: #555;
 }
 
-button, .dropdown-btn {
+button,
+.dropdown-btn {
     background-color: #4caf50;
     color: white;
     padding: 10px 20px;
@@ -123,16 +125,4 @@ button:hover {
     margin-left: 5px;
     width: 20px;
     height: 20px;
-}
-
-.main-container {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.version-sections {
-    text-align: center;
-    width: 100%;
 }
