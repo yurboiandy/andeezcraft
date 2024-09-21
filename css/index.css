@@ -122,7 +122,7 @@ button:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
-.filter-button {
+.filter-button > button {
     min-width: 200px;
 }
 .dropdown-content a {
