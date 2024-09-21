@@ -12,18 +12,30 @@ body {
 .mobileContainer18 {
     display: flex;
     width: 1%;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: 0 auto;
 }
 .Container18{
     display: flex;
     width: 1%;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: 0 auto;
 }
 .Container15{
     display: flex;
     width: 1%;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin: 0 auto;
 }
 .mobileContainer15{
     display: flex;
     width: 1%;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: 0 auto;
 }
 h1 {
     color: #000000;
@@ -140,7 +152,9 @@ button:hover {
     margin: 10px 0;
     color: #000000;
 }
-
+.version-link {
+    display: block ruby;
+}
 .footer {
     margin-top: auto;
     background-color: #ddd;
