@@ -16,7 +16,21 @@ body {
     justify-content: center;
     margin: 0 auto;
 }
+.mobileContainer19 {
+    display: flex;
+    width: 1%;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
 .Container18{
+    display: flex;
+    width: 1%;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+.Container19{
     display: flex;
     width: 1%;
     flex-wrap:wrap;
