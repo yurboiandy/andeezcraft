@@ -1,7 +1,6 @@
 
 function dMode(){
-  var body = document.body;
-  body.classList.toggle("darkBody");
-  var button = document.button;
-  button.classList.toggle("darkButton");
+  document.button.style.background-color("#13f4f3")
+  document.body.style.color("f1f1f1")
+  document.body.style.background-color("3c3c3c")
 }
