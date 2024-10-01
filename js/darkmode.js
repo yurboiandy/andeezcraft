@@ -1,4 +1,4 @@
-function dMode() {
+function darkMode() {
   console.log("heck yeah");
   var inputs = document.getElementsByTagName('input');
   var body = document.body;
