@@ -1,6 +1,6 @@
 var dCheck = document.getElementById("dMode");
 
-function darkMode() {
+dCheck.onClick(){
   console.log("heck yeah");
   var inputs = document.getElementsByTagName('input');
   var body = document.body;
@@ -12,9 +12,5 @@ function darkMode() {
    if(inputs[i].getAttribute('type')=='button'){
      inputs.style.backgroundColor="#13f4f3";
    }
-  }  
-}
-
-dCheck.onClick(){
-  darkMode();
+  } 
 }
