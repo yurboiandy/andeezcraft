@@ -1,6 +1,6 @@
 var dCheck = document.getElementById("dMode");
 
-dCheck.onClick() = function dClick(){
+function dClick(){
   console.log("heck yeah");
   var inputs = document.getElementsByTagName('input');
   var body = document.body;
@@ -13,4 +13,8 @@ dCheck.onClick() = function dClick(){
      inputs.style.backgroundColor="#13f4f3";
    }
   } 
+}
+
+dCheck.onClick(){
+  dClick();
 }
