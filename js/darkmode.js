@@ -1,3 +1,5 @@
+var dCheck = document.getElementById("dMode");
+
 function darkMode() {
   console.log("heck yeah");
   var inputs = document.getElementsByTagName('input');
@@ -13,3 +15,6 @@ function darkMode() {
   }  
 }
 
+dCheck.onClick(){
+  darkMode();
+}
