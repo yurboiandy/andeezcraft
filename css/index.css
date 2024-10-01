@@ -81,6 +81,7 @@ button {
 
 .darkButton{
     background-color: #00e1ff;
+    transition: transform 0.5s ease;
 }
 
 .source-btn {
@@ -95,6 +96,7 @@ button {
     text-decoration: none;
     display: inline-block;
     max-width: 200px;
+    transition: transform 0.5s ease;
 }
 
 .dsc-btn {
@@ -109,6 +111,7 @@ button {
     text-decoration: none;
     display: inline-block;
     max-width: 200px;
+    transition: transform 0.5s ease;
 }
 
 .clr-btn {
@@ -123,6 +126,7 @@ button {
     text-decoration: none;
     display: inline-block;
     max-width: 200px;
+    transition: transform 0.5s ease;
 }
 
 button:hover {
