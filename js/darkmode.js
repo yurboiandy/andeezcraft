@@ -1,4 +1,4 @@
-function dMode(){
+function dMode() {
   console.log("heck yeah");
   var inputs = document.getElementsByTagName('input');
   var body = document.body;
