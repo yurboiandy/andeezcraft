@@ -1,6 +1,6 @@
 var dCheck = document.getElementById("dMode");
 
-dCheck.onClick = function dClick(){
+dCheck.onClick() = function dClick(){
   console.log("heck yeah");
   var inputs = document.getElementsByTagName('input');
   var body = document.body;
