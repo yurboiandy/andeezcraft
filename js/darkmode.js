@@ -8,7 +8,7 @@ function dMode() {
 
   for(var i=0; i&lt;inputs.length; i++){
    if(inputs[i].getAttribute('type')=='button'){
-     buttons.style.backgroundColor="#13f4f3";
+     inputs.style.backgroundColor="#13f4f3";
    }
   }  
 }
