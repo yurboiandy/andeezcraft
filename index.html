@@ -94,7 +94,8 @@
 
     <h3>DANGER ZONE</h3>
     <a onclick="openClrModal();" class="clr-btn">Reset All Local Data</a>
-    <a onclick="(function () { var script = document.createElement('script'); script.src="https://cdn.jsdelivr.net/npm/eruda"; document.body.append(script); script.onload = function () { eruda.init(); } })();"><button>Devtools</button></a>
+    <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
+    <a onclick="eruda.init();"><button>Devtools</button></a>
     
     <div id="clr-data-model" class="modal">
         <div class="modal-content">
