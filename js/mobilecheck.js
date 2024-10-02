@@ -8,6 +8,8 @@ $(document).ready(function() {
             $("#mobileVersion152").show();
             $("#desktopVersion19").hide();
             $("#mobileVersion19").show();
+            $("#desktopVersion119").hide();
+            $("#mobileVersion119").show();
         } else {
             $("#desktopVersion18").show();
             $("#mobileVersion18").hide();
@@ -15,6 +17,8 @@ $(document).ready(function() {
             $("#mobileVersion152").hide();
             $("#desktopVersion19").show();
             $("#mobileVersion19").hide();
+            $("#desktopVersion119").show();
+            $("#mobileVersion119").hide();
         }
     }
 
