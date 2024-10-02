@@ -8,7 +8,7 @@ dCheck.onclick = function dClick(){
   body.style.color="f1f1f1";
   body.style.backgroundColor="3c3c3c";
 
-  for(var i=0; i&lt;inputs.length; i++){
+  for(var i=0; i&lt;inputs.length i++){
    if(inputs[i].getAttribute('type')=='button'){
      inputs.style.backgroundColor="#13f4f3";
    }
