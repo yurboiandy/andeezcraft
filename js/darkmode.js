@@ -1,5 +1,5 @@
 var dCheck = document.getElementById("dMode");
-console.log("darmode.js working")
+alert("darmode.js working")
 
 dCheck.onclick = function dClick(){
   console.log("heck yeah");
