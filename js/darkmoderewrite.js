@@ -5,6 +5,12 @@ $(document).ready(function() {
             const body = document.querySelector('body');
             body.style.backgroundColor = '#404040';
             body.style.color = '#f1f1f1';
+
+            const p = document.querySelector('p');
+            p.style.color = '#f1f1f1';
+
+            const head = document.querySelector('h1');
+            head.style.color = '#f1f1f1';
             
             const foot = document.querySelector('.footer');
             foot.style.backgroundColor = 'grey';
