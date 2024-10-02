@@ -1,4 +1,4 @@
-# EaglerCraftX-1.8
+# EaglerCraftX
 EaglerCraftX Client for 1.8 (+ 1.5.2 and 1.9 Options)
 
 ### If you fork or use this repository code, please credit me.
