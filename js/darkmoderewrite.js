@@ -6,22 +6,22 @@ $(document).ready(function() {
             body.style.backgroundColor = '#404040';
             body.style.color = '#f1f1f1';
             
-            const text = document.querySelector('.footer');
-            text.style.backgroundColor = 'grey';
+            const foot = document.querySelector('.footer');
+            foot.style.backgroundColor = 'grey';
 
-            const body = document.querySelector('button');
-            body.style.backgroundColor = '#13f4f3';
+            const button = document.querySelector('button');
+            button.style.backgroundColor = '#13f4f3';
 
         } else {
             const body = document.querySelector('body');
             body.style.backgroundColor = '#f1f1f1';
             body.style.color = 'black';
             
-            const text = document.querySelector('.footer');
-            text.style.backgroundColor = '#ddd';
+            const foot = document.querySelector('.footer');
+            foot.style.backgroundColor = '#ddd';
 
-            const body = document.querySelector('button');
-            body.style.backgroundColor = '#4caf50';
+            const button = document.querySelector('button');
+            button.style.backgroundColor = '#4caf50';
 
         }
     }
