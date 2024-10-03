@@ -10,10 +10,10 @@ $(document).ready(function() {
             p.style.color = '#f1f1f1';
 
             const headTwo = document.querySelector('h2');
-            head.style.color = '#f1f1f1';
+            headTwo.style.color = '#f1f1f1';
 
             const head = document.querySelector('h1');
-            headTwo.style.color = '#f1f1f1';
+            head.style.color = '#f1f1f1';
             
             const foot = document.querySelector('.footer');
             foot.style.backgroundColor = 'grey';
@@ -30,10 +30,10 @@ $(document).ready(function() {
             p.style.color = 'black';
 
             const headTwo = document.querySelector('h2');
-            head.style.color = 'black';
+            headTwo.style.color = 'black';
 
             const head = document.querySelector('h1');
-            headTwo.style.color = 'black';
+            head.style.color = 'black';
             
             const foot = document.querySelector('.footer');
             foot.style.backgroundColor = '#ddd';
