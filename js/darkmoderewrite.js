@@ -16,7 +16,7 @@ $(document).ready(function() {
             head.style.color = '#f1f1f1';
             
             const foot = document.querySelector('.footer');
-            foot.style.backgroundColor = 'grey';
+            foot.style.backgroundColor = '#808080';
 
             const button = document.querySelector('button');
             button.style.backgroundColor = '#21ccaa';
