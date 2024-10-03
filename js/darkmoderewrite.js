@@ -22,7 +22,7 @@ $(document).ready(function() {
 
             const buttons = document.querySelectorAll('button');
             buttons.forEach(function(button) {
-                button.style.backgroundColor = '#01452c';
+                button.style.backgroundColor = '#30d3d2';
             });
 
             const versionTexts = document.querySelectorAll('.version-text');
