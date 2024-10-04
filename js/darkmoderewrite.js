@@ -23,8 +23,10 @@ $(document).ready(function() {
             const gitBtn = document.querySelector('.source-btn');
             gitBtn.style.backgroundColor = '#9656ce';
 
-            const dscButt = document.querySelector('.dsc-btn');
-            dscButt.style.backgroundColor = '#ff6847';
+            const dscBtn = document.querySelectorAll('.dsc-button');
+            dscBtn.forEach(function(button) {
+                dscBtn.style.backgroundColor = '#ff6847';
+            });
             
             const buttons = document.querySelectorAll('button');
             buttons.forEach(function(button) {
@@ -58,8 +60,10 @@ $(document).ready(function() {
             const gitBtn = document.querySelector('.source-btn');
             gitBtn.style.backgroundColor = '#333333';
 
-            const dscButt = document.querySelector('.dsc-btn');
-            dscButt.style.backgroundColor = '#9656ce';
+            const dscBtn = document.querySelectorAll('.dsc-button');
+            dscBtn.forEach(function(button) {
+                dscBtn.style.backgroundColor = '#9656ce';
+            });
 
             const buttons = document.querySelectorAll('button');
             buttons.forEach(function(button) {
