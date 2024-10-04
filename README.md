@@ -9,7 +9,7 @@ EaglerCraftX Client for 1.8 (+ 1.5.2, 1.9 Options)
 > If you are forking this repository and want to keep your fork up to date. You can use the sync fork button **(safer)** on the repository or https://github.com/apps/pull to auto sync **(but read warning below)**.
 
 > [!WARNING]
-> This bot deletes all changes you made when it syncs to a new commit so you should backup your changes.
+> If you choose to use poll bot it deletes all changes you made when it syncs to a new commit so you should backup your changes.
 
 ## Contributors
 [![Contrib](https://contrib.rocks/image?repo=eaglercraftx1-8/eaglercraftx1-8.github.io)](https://github.com/eaglercraftx1-8/eaglercraftx1-8.github.io/graphs/contributors)
