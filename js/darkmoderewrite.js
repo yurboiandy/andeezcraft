@@ -23,7 +23,7 @@ $(document).ready(function() {
             const gitBtn = document.querySelector('.source-btn');
             gitBtn.style.backgroundColor = '#9656ce';
 
-            const dscBtn = document.querySelectorAll('.dsc-button');
+            const dscBtn = document.querySelectorAll('.dsc-btn');
             dscBtn.forEach(function(dsc) {
                 dscBtn.style.backgroundColor = '#ff6847';
             });
@@ -60,7 +60,7 @@ $(document).ready(function() {
             const gitBtn = document.querySelector('.source-btn');
             gitBtn.style.backgroundColor = '#333333';
 
-            const dscBtn = document.querySelectorAll('.dsc-button');
+            const dscBtn = document.querySelectorAll('.dsc-btn');
             dscBtn.forEach(function(dsc) {
                 dscBtn.style.backgroundColor = '#9656ce';
             });
