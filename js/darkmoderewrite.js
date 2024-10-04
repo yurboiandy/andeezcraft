@@ -24,7 +24,7 @@ $(document).ready(function() {
             gitBtn.style.backgroundColor = '#9656ce';
 
             const dscBtn = document.querySelectorAll('.dsc-button');
-            dscBtn.forEach(function(button) {
+            dscBtn.forEach(function(dsc) {
                 dscBtn.style.backgroundColor = '#ff6847';
             });
             
@@ -61,7 +61,7 @@ $(document).ready(function() {
             gitBtn.style.backgroundColor = '#333333';
 
             const dscBtn = document.querySelectorAll('.dsc-button');
-            dscBtn.forEach(function(button) {
+            dscBtn.forEach(function(dsc) {
                 dscBtn.style.backgroundColor = '#9656ce';
             });
 
