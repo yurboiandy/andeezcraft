@@ -18,8 +18,14 @@ $(document).ready(function() {
             head.style.color = '#f1f1f1';
             
             const foot = document.querySelector('.footer');
-            foot.style.backgroundColor = '#808080';
+            foot.style.backgroundColor = '#010101';
 
+            const gitBtn = document.querySelector('.source-btn');
+            gitBtn.style.backgroundColor = '#9656ce';
+
+            const dscButt = document.querySelector('.dsc-btn');
+            dscButt.style.backgroundColor = '#ff5733';
+            
             const buttons = document.querySelectorAll('button');
             buttons.forEach(function(button) {
                 button.style.backgroundColor = '#30d3d2';
@@ -48,6 +54,12 @@ $(document).ready(function() {
             
             const foot = document.querySelector('.footer');
             foot.style.backgroundColor = '#ddd';
+
+            const gitBtn = document.querySelector('.source-btn');
+            gitBtn.style.backgroundColor = '#333333';
+
+            const dscButt = document.querySelector('.dsc-btn');
+            dscButt.style.backgroundColor = '#9656ce';
 
             const buttons = document.querySelectorAll('button');
             buttons.forEach(function(button) {
