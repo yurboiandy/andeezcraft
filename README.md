@@ -24,7 +24,7 @@ EaglerCraftX Client for 1.8 (+ 1.5.2, 1.9 Options)
 - [Itch.io Hosted](https://prestont500real.itch.io/webmc) (https://prestont500real.itch.io/webmc)
 
 > [!IMPORTANT]
-> **I am not affiliated with or employed by EaglerCraft or Eagtek. I solely host these sites. I do not own or work for EaglerCraft and am not affiliated with Mojang.**
+> **I am not affiliated, own, or work at Eagtek, Eaglercraft, Mojang, Microsoft, or Minecraft. I solely host these sites but I did not make, work on, or am affiliated with eaglercraft.**
 
 > [!CAUTION]
 > You may get DMCA by minecraft which is why i added the message above. **Remove at your own risk**.
