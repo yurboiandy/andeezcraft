@@ -24,7 +24,7 @@ $(document).ready(function() {
             gitBtn.style.backgroundColor = '#9656ce';
 
             const dscButt = document.querySelector('.dsc-btn');
-            dscButt.style.backgroundColor = '#ff5733';
+            dscButt.style.backgroundColor = '#ff6847';
             
             const buttons = document.querySelectorAll('button');
             buttons.forEach(function(button) {
