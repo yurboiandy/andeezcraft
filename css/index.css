@@ -133,7 +133,7 @@ button:hover {
 }
 
 .dsc-btn:hover {
-    background-color: #5b209a;
+    background-color: #a751f2;
     transform: scale(1.1);
 }
 .clr-btn:hover {
@@ -188,6 +188,17 @@ button:hover {
     background-color: #ddd;
     padding: 20px;
     width: 100%;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #0d5152;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.footer a:hover {
+    text-decoration: underline;
 }
 
 .recommended {
