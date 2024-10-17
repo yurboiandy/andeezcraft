@@ -3,6 +3,9 @@ EaglerCraftX Client for 1.8 (+ 1.5.2, 1.9 Options)
 
 > [!NOTE]
 > If you fork or use this repository code, please credit me.
+
+You are welcome to open a pull request to contribute
+
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=eaglercraftx1-8&label=Repository%20views&color=0e75b6&style=flat" alt="eaglercraftx1-8" /> (If you fork this repository the views add up from the forks unless you remove this in your fork)</p>
 
 > [!TIP]
